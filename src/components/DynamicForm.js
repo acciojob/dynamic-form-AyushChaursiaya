@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const DynamicForm = () => {
   // State to hold the form fields
   const [fields, setFields] = useState([]);
@@ -44,7 +45,7 @@ const DynamicForm = () => {
           ))}
         </div>
       )}
-      <button onClick={addField} style={{ marginTop: '10px', padding: '8px' }}>
+      <button onClick={addField} className='delete'>
         Add Field
       </button>
     </div>
