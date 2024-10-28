@@ -45,7 +45,7 @@ const DynamicForm = () => {
           ))}
         </div>
       )}
-      <button onClick={addField} className='delete'>
+      <button onClick={addField} className='add'>
         Add Field
       </button>
     </div>
