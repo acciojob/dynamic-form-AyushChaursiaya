@@ -40,7 +40,7 @@ const DynamicForm = () => {
                 onChange={(e) => handleInputChange(field.id, e.target.value)}
                 style={{ marginRight: '10px', padding: '5px' }}
               />
-              <button onClick={() => removeField(field.id)}>Remove</button>
+              <button className='delete' onClick={() => removeField(field.id)}>Delete</button>
             </div>
           ))}
         </div>
