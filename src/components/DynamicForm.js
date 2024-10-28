@@ -13,7 +13,9 @@ const DynamicForm = () => {
 
   // Function to remove a field by its ID
   const removeField = (id) => {
-    setFields(fields.filter((field) => field.id !== id));
+    // setFields(fields.filter((field) => field.id !== id));
+    const newDeleteFields = fields.filter((field) => field.id !== id);
+    setFields(newDeleteFields);
   };
 
   // Function to handle input changes
